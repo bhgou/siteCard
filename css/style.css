@@ -1,0 +1,45 @@
+.background-noise{
+   
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../images/noise.png);
+    position: relative;
+    bottom: 25px;
+    z-index: 2;
+}
+.background-gif{
+   
+    width: 1440px;
+    height: 1024px;
+    background-image: url(../images/ezgif-3-8d1bc62579.gif);
+    position: absolute;
+    bottom: 25px;
+    background-repeat: no-repeat;
+    left: 720px;
+    top: 200px;
+    z-index: 1;
+}
+body{
+    background-color: #010014;
+}
+h1,h4{
+    position: absolute;
+    color: white;
+    z-index: 10;
+}
+logo-text{
+    width: 331px;
+    height: 164px;
+    left: calc(50% - 331px/2 - 0.5px);
+    top: calc(50% - 164px/2 - 1.5px);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 164px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
