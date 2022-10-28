@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/style.css">
+    <title>document</title>
+</head>
+<body>
+
+    <section>
+        <div class="logo"><img src="../images/logo.png" alt="" class = "logo-image"></div>  
+        <h1 class="logo-text">int.</h1>
+        <h4 class="under-logo">&*^%$#!@</h4>
+        <div class="button-contact"><h4 class="contact-text">Contact with me</h4></div>
+        <img src="../images/yt.png" alt="" class="image-yt">
+        <img src="../images/steam.png" alt="" class="image-steam">
+        <img src="../images/gt.png" alt=""  class="image-gt">
+        <img src="../images/vk.png" alt=""  class="image-vk">
+    </section>
+    <div class="background-noise"></div>
+    <div class="background-gif"><img src="../images/giphy.gif" alt="error"></div>
+</body>
+
+</html>
+<script>
+ ColorBind("image-yt");
+ ColorBind("image-steam");
+ ColorBind("image-gt");
+ ColorBind("image-vk");
+ ColorBind("contact-text");
+ ColorBind("button-contact");
+function ColorBind(className) {
+
+  var ells = document.getElementsByClassName(className);
+
+  var highlightToggle = function() {
+    var all = document.getElementsByClassName(className);
+
+    for (var el1 of all) {
+      el1.classList.toggle("highlight");
+    }
+  }
+
+  for (var el of ells) {
+    el.addEventListener("mouseover", highlightToggle);
+    el.addEventListener("mouseout", highlightToggle);
+  }
+}
+</script>
