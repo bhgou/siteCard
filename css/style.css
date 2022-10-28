@@ -1,3 +1,16 @@
+body {
+    opacity: 0;
+    animation: ani 25s forwards;
+  }
+  
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.highlight {
+   opacity: 50%;
+}
+
 .background-noise{
    
     width: 1920px;
@@ -14,14 +27,15 @@
     position: absolute;
     bottom: 25px;
     background-repeat: no-repeat;
-    left: 750px;
+    left: 690px;
     top: 300px;
     z-index: 2;
-    opacity: 10%;
+    opacity: 50%;
 }
 body{
-    background-color: #010014;
+    background-color: #000000;
 }
+
 h1,h4{
     position: absolute;
     color: white;
@@ -67,7 +81,6 @@ h1,h4{
 
     color: rgba(255, 255, 255, 0.48);
 
-    border: 1px solid #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
 }
 .button-contact{
@@ -88,7 +101,7 @@ h1,h4{
 .logo{
    position: absolute;
    left:870px;
-   top: 250px;
+   top: 280px;
    z-index: 10;
 }
 .logo-image{
