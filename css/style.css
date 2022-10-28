@@ -85,3 +85,35 @@ h1,h4{
     left: 88px;
     bottom: -3px;
 }
+.logo{
+   position: absolute;
+   left:870px;
+   top: 250px;
+   
+}
+.logo-image{
+    width: 150px;
+    height: 150px;
+}
+.image-yt,.image-gt,.image-vk,.image-steam{
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+}
+.image-yt{
+    left: 840px;
+    top: 710px;
+}
+.image-steam{
+    left: 900px;
+    top: 710px;
+}
+.image-gt{
+    left: 960px;
+    top: 710px;
+}
+.image-vk{
+    left: 1020px;
+    top: 710px;
+}
