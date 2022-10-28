@@ -11,13 +11,13 @@
    
     width: 1440px;
     height: 1024px;
-    background-image: url(../images/ezgif-3-8d1bc62579.gif);
     position: absolute;
     bottom: 25px;
     background-repeat: no-repeat;
-    left: 720px;
-    top: 200px;
-    z-index: 1;
+    left: 750px;
+    top: 300px;
+    z-index: 2;
+    opacity: 10%;
 }
 body{
     background-color: #010014;
@@ -89,7 +89,7 @@ h1,h4{
    position: absolute;
    left:870px;
    top: 250px;
-   
+   z-index: 10;
 }
 .logo-image{
     width: 150px;
